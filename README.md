@@ -30,8 +30,26 @@ limitations under the License.
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var iterator = require( '@stdlib/random-iter-box-muller' );
+iterator = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-box-muller@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-box-muller@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.iterator;
+})()
+</script>
 ```
 
 #### iterator( \[options] )
@@ -169,8 +187,13 @@ The returned iterator protocol-compliant object has the following properties:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var iterator = require( '@stdlib/random-iter-box-muller' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-box-muller@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var it;
 var r;
@@ -189,6 +212,11 @@ while ( true ) {
     }
     console.log( r.value );
 }
+
+})()
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -277,6 +305,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 -->
 
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/random-iter-box-muller/tree/deno
+[umd-url]: https://github.com/stdlib-js/random-iter-box-muller/tree/umd
+[esm-url]: https://github.com/stdlib-js/random-iter-box-muller/tree/esm
+
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
 
@@ -300,11 +335,11 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@thomas:2007]: http://dx.doi.org/10.1145/1287620.128762
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/random/base/box-muller]: https://github.com/stdlib-js/random-base-box-muller
+[@stdlib/random/base/box-muller]: https://github.com/stdlib-js/random-base-box-muller/tree/umd
 
 <!-- </related-links> -->
 
