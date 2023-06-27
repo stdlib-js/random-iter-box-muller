@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/iter/box-muller"
-click B href "https://github.com/stdlib-js/random-iter-box-muller/tree/main"
-click C href "https://github.com/stdlib-js/random-iter-box-muller/tree/production"
-click D href "https://github.com/stdlib-js/random-iter-box-muller/tree/esm"
-click E href "https://github.com/stdlib-js/random-iter-box-muller/tree/deno"
-click F href "https://github.com/stdlib-js/random-iter-box-muller/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/iter/box-muller"
+%% click B href "https://github.com/stdlib-js/random-iter-box-muller/tree/main"
+%% click C href "https://github.com/stdlib-js/random-iter-box-muller/tree/production"
+%% click D href "https://github.com/stdlib-js/random-iter-box-muller/tree/esm"
+%% click E href "https://github.com/stdlib-js/random-iter-box-muller/tree/deno"
+%% click F href "https://github.com/stdlib-js/random-iter-box-muller/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/random/iter/box-muller
